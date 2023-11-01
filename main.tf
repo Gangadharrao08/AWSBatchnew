@@ -57,7 +57,7 @@ resource "aws_instance" "four" {
   instance_type   = "t2.micro"
   key_name        = "Terraformnew"
   vpc_security_group_ids = [aws_security_group.five.id]
-  availability_zone = "us-east-1"
+  availability_zone = "us-east-1b"
   tags = {
     Name = "app-server-2"
   }
@@ -88,7 +88,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "devopsbygangaterraserverbucket832678"
+  bucket = "devopsbygangaterraserverbucket8326789"
 }
 
 resource "aws_iam_user" "seven" {
