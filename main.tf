@@ -88,7 +88,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "devopsbygangaterraserverbucket8326"
+  bucket = "devopsbygangaterraserverbucket832678"
 }
 
 resource "aws_iam_user" "seven" {
