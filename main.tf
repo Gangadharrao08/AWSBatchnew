@@ -8,7 +8,7 @@ resource "aws_instance" "one" {
   instance_type   = "t2.micro"
   key_name        = "Terraformnew"
   vpc_security_group_ids = [aws_security_group.five.id]
-  availability_zone = "us-east-1a"
+  availability_zone = "us-east-1b"
   user_data       = <<EOF
 #!/bin/bash
 sudo -i
